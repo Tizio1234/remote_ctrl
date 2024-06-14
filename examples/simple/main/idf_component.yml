@@ -4,4 +4,6 @@ dependencies:
   idf:
     version: ">=5.2.2"
   remote_ctrl:
+    #git: "https://github.com/tommasoclini/remote_ctrl.git"
+    #path: "remote_ctrl"
     path: "../../../remote_ctrl"
