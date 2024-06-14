@@ -46,7 +46,7 @@ static void button_single_click_cb(void *button_handle, void *usr_data)
 	ESP_LOGI(TAG, "Sending test message");
 }
 
-esp_err_t remote_ctrl_init_for_all()
+esp_err_t remote_ctrl_init()
 {
 	if (all_init)
 		return ESP_ERR_INVALID_STATE;
@@ -64,7 +64,7 @@ esp_err_t remote_ctrl_init_for_all()
 
 	return ESP_OK;
 }
-esp_err_t remote_ctrl_deinit_for_all()
+esp_err_t remote_ctrl_deinit()
 {
 	if (!all_init)
 		return ESP_ERR_INVALID_STATE;

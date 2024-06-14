@@ -46,7 +46,7 @@ void app_main(void)
     initialize_nvs();
     app_wifi_init();
 
-    ESP_ERROR_CHECK(remote_ctrl_init_for_all());
+    ESP_ERROR_CHECK(remote_ctrl_init());
 
     button_config_t btn_conf = {
         .type = BUTTON_TYPE_GPIO,

@@ -29,11 +29,11 @@ esp_err_t remote_ctrl_set_data_cb(espnow_ctrl_data_cb_t cb);
 /**
  * @brief Init espnow for remote ctrl
  */
-esp_err_t remote_ctrl_init_for_all();
+esp_err_t remote_ctrl_init();
 /**
  * @brief Deinit espnow
  */
-esp_err_t remote_ctrl_deinit_for_all();
+esp_err_t remote_ctrl_deinit();
 
 /**
  * @brief espnow_ctrl_responder_bind, waits config->resp_to_init_ms milliseconds, espnow_ctrl_initiator_bind
