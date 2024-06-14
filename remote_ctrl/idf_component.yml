@@ -1,4 +1,6 @@
 ## IDF Component Manager Manifest File
+description: "Wrapper to espnow ctrl for bidirectional communication"
+url: "https://github.com/tommasoclini/remote_ctrl"
 dependencies:
   espressif/button: ">=3.2.0"
   espressif/esp-now: ">=2.5.1"
